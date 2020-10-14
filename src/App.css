@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.report-container {
+  display: flex;
+}
+
+.report-container > #filter-container {
+  width: 15%;
+  /* background: #f7faf8 */
+  border-right: 1px solid;
+}
+
+.report-container > #charts-container {
+  width: 70%;
+  padding: 2rem;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  font-size: 2rem
+  /* background: #f5faf6; */
+}
+
+.App-link {
+  color: #61dafb;
+}
